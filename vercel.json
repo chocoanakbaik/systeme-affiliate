@@ -1,0 +1,27 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "systeme-affiliate-tcs.vercel.app"
+        }
+      ],
+      "destination": "https://thechocostudios.bond/recommended-tools/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "systeme-affiliate-peach.vercel.app"
+        }
+      ],
+      "destination": "https://thechocostudios.bond/recommended-tools/:path*",
+      "permanent": true
+    }
+  ]
+}
